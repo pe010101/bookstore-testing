@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bookstore — Log in</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+</head>
+<body>
+<main class="container py-4" style="max-width: 480px">
+    <h1>Bookstore</h1>
+    <h2 class="h4">Log in</h2>
+    <p class="alert alert-danger" th:if="${param.error}">Invalid username or password.</p>
+    <p class="alert alert-success" th:if="${param.logout}">You have logged out.</p>
+    <form th:action="@{/login}" method="post">
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input id="username" name="username" class="form-control"
+                   autocomplete="username" required autofocus>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input id="password" name="password" type="password" class="form-control"
+                   autocomplete="current-password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Log in</button>
+    </form>
+</main>
+</body>
+</html>

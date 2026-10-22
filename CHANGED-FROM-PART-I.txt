@@ -1,0 +1,8 @@
+pom.xml
+src/main/java/com/example/bookstore/SecurityConfig.java
+src/main/java/com/example/bookstore/AppUser.java
+src/main/java/com/example/bookstore/AppUserRepository.java
+src/main/java/com/example/bookstore/DatabaseUserDetailsService.java
+src/main/java/com/example/bookstore/DemoUserInitializer.java
+src/main/resources/application.properties
+src/test/java/com/example/bookstore/DatabaseUsersTest.java

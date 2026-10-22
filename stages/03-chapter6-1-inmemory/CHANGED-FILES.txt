@@ -1,0 +1,11 @@
+pom.xml
+src/main/java/com/example/bookstore/SecurityConfig.java
+src/main/java/com/example/bookstore/BookController.java
+src/main/resources/application.properties
+src/main/resources/templates/login.html
+src/main/resources/templates/booklist.html
+src/test/java/com/example/bookstore/SecurityWorkflowTest.java
+src/test/java/com/example/bookstore/BookControllerTest.java
+src/test/java/com/example/bookstore/BookRestControllerTest.java
+src/test/java/com/example/bookstore/DataRestApiTest.java
+src/test/java/com/example/bookstore/BookstoreApplicationTests.java
